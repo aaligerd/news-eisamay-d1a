@@ -540,7 +540,7 @@ input[type=submit]:disabled,input[type=text]:disabled {
 }
 
 .loading {
-    background: url(../static-images/5edb00c038fee8962c946b01ea392336-loading.gif);
+    background: url(/static-images/5edb00c038fee8962c946b01ea392336-loading.gif);
     background-size: 100%;
     width: 50px;
     height: 50px;
@@ -555,7 +555,7 @@ input[type=submit]:disabled,input[type=text]:disabled {
 }
 
 .loading-special-data .loading-spinner {
-    background: url(../static-images/5edb00c038fee8962c946b01ea392336-loading.gif);
+    background: url(/static-images/5edb00c038fee8962c946b01ea392336-loading.gif);
     background-size: 100%;
     width: 50px;
     height: 50px;
@@ -782,7 +782,7 @@ div.filter-panel>div div {
 }
 
 .loading_white {
-    background: url(../static-images/a0507c87dab5c12b744cb27e80992449-loading_white.gif);
+    background: url(/static-images/a0507c87dab5c12b744cb27e80992449-loading_white.gif);
     background-size: 100%;
     width: 35px;
     height: 35px;
@@ -10693,7 +10693,7 @@ h2 {
     height: 720px;
     overflow: hidden;
     background-color: #020002;
-    background-image: url(../static-images/3546020be1469805b408950957a7e8c7-marksheet_background.png)
+    background-image: url(/static-images/3546020be1469805b408950957a7e8c7-marksheet_background.png)
 }
 
 .manifest-container .marksheet-background .marksheet-background-image {
@@ -17349,7 +17349,8 @@ input.wire-search-content {
         font-weight: 600;
         font-size: 16px;
         box-shadow: 1px 1px 4px #a17373;
-        cursor: pointer
+        cursor: pointer;
+                text-align: center;
     }
 
     .wire-search-div {
