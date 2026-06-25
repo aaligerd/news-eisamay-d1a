@@ -1,0 +1,983 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News - Eisamay</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/mat.css" />
+  <link rel="stylesheet" href="css/news-eisamay.css" />
+</head>
+
+<body>
+  <header class="wire-header-container">
+    <div class="wire-header">
+      <div class="wire-inner-header">
+        <div class="wire-left-header">
+          <div class="header__menu hide-on-med-and-up-only">
+            <div class="header__menu--with-background hide-on-med-and-up-only">
+              <a class="icon-mobile-menu mobile-menu-link hide-on-med-and-up-only" href="index.html"></a>
+            </div>
+          </div>
+          <div class="wire-logo">
+            <a href="index.html">
+              <img src="img/eisamay-logo.webp" alt="thewire" height="40" width="116" />
+            </a>
+          </div>
+          <div class="wire-languages hide-on-med-and-down">
+            <ul>
+              <li class="wire-active-language">
+                <a href="index.html">English</a>
+              </li>
+              <li>
+                <a href="#" target="_self" title="The Wire in हिंदी" class="lang-text">हिंदी</a>
+              </li>
+              <li>
+                <a href="#" target="_self" title="The Wire in తెలుగు" class="lang-text">తెలుగు</a>
+              </li>
+              <li>
+                <a href="#" target="_self" title="The Wire in اردو" class="lang-text">اردو</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wire-right-header">
+          <div class="wire-about-subscribe">
+            <ul style="display: flex; align-items: center">
+              <li>
+                <div class="wire-yt-and-search">
+                  <a target="_blank" href="#">
+                    <div class="y-10-years-of-theWire">
+                      <span>11 Years of The Wire</span>
+                    </div>
+                  </a>
+                  <div class="wire-search-div">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBjZFBTsJQEIbnf6zc4QnkBmqMEV3pCcATEHbiqnAByw26051xyU5OAK4g0UTduewR8AJv+OfRQtsQ0knavteZb+afGUhmUfTQgrgIkB6vTRVNoZh78eMkeUmlYrDXcDjoQZDYWVWnPKcKOaOzw18rr9pPkuf3EmiVHNy3iqSq/r6YPfPNTIFXf170OWaPg7QKZGZ3AncbaS4q+hyAjoqf7usjh4N8BNk70KpB3Y8cMOuZn1YVXPE5OQSyfxtUKblTlTem7Nog9kFhTZTJKVdA8WEN7HVWhTdQmKp478dl+SFg0OWUXnlscpHcF36Z8lQUt1mcrSPmoLZww17L5dffVftiwjTHrNw26YSP2MaEivpw+Le1McZiP7YV69ho9BhzSk955UZdcLH4nF/fXCKvXBsswqrAGl5lj0M54GwWAAAAAElFTkSuQmCC"
+                      alt="Search Icon" class="image2" />
+                    <input class="wire-search-content" placeholder="Search news" type="search" />
+                  </div>
+                </div>
+              </li>
+              <li style="display: none">
+                <a aria-label="Login" href="news-listing.html" style="
+                      display: inline-flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding: 12px 16px;
+                      border-radius: 2px;
+                      background: rgb(240, 140, 0);
+                      color: rgb(255, 255, 255);
+                      text-decoration: none;
+                      font-size: 14px;
+                      font-weight: 600;
+                    ">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sidebar-is-active hide menubar__close">
+          <div class="support-links">
+            <span>
+              <a href="news-listing.html" target="_blank" title="Become A Supporter" class="">Become A Supporter</a>
+            </span>
+          </div>
+          <div class="lang-links">
+            <a href="news-listing.html" target="_blank" title="The Wire in Hindi" class="">Hindi</a>
+            <a href="news-listing.html" target="_blank" title="The Wire in Urdu" class="">Urdu</a>
+          </div>
+          <nav>
+            <ul class="side menubar__nav">
+              <li>
+                <a class="link active" aria-current="page" href="index.html">
+                  <span class="link-img-home"></span>
+                  <span class="link-title">Home</span>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="index.html">
+                  <span class="link-img-categories"></span>
+                  <span class="link-title">category</span>
+                  <span class="icon-arrow-down"></span>
+                </a>
+              </li>
+              <li>
+                <a class="link" target="_blank" title="Opinion" href="news-listing.html">
+                  <span class="link-img-opinion"></span>
+                  <span class="link-title">opinion</span>
+                </a>
+              </li>
+              <li>
+                <a class="link" target="_blank" title="Videos" href="news-listing.html">
+                  <span class="link-img-videos"></span>
+                  <span class="link-title">Video</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="bottom-about">
+            <span>
+              <a title="Terms &amp; Conditions" target="_blank" href="news-listing.html">Terms</a>
+              <a title="Privacy Policy" target="_blank" href="news-listing.html">Privacy</a>
+              <a title="About The Wire" target="_blank" href="news-listing.html">About Us</a>
+            </span>
+          </div>
+          <div class="bottom-bar">
+            <div class="bottom-bar__copyright">
+              <span class="copyright-symbol">©</span>
+              <span>The Wire | 2018</span>
+            </div>
+            <div class="bottom-bar__social-button hide-on-med-and-up undefined">
+              <a target="_blank" class="bottom-bar__social-button--fb" href="news-listing.html"></a>
+              <a target="_blank" class="bottom-bar__social-button--tw" href="news-listing.html"></a>
+              <a target="_blank" class="bottom-bar__social-button--instagram" href="news-listing.html"></a>
+              <a target="_blank" class="bottom-bar__social-button--youtube" href="news-listing.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wire-subheader">
+      <div class="wire-subheader-routes">
+        <div class="active-category">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="">
+          <a title="Politics" target="_self" href="news-listing.html">Politics</a>
+        </div>
+        <div class="">
+          <a title="Economy" target="_self" href="news-listing.html">Economy</a>
+        </div>
+        <div class="">
+          <a title="World" target="_self" href="news-listing.html">World</a>
+        </div>
+        <div class="">
+          <a title="Security" target="_self" href="news-listing.html">Security</a>
+        </div>
+        <div class="">
+          <a title="Law" target="_self" href="news-listing.html">Law</a>
+        </div>
+        <div class="">
+          <a title="Science" target="_self" href="news-listing.html">Science</a>
+        </div>
+        <div class="">
+          <a title="Society" target="_self" href="news-listing.html">Society</a>
+        </div>
+        <div class="">
+          <a title="Culture" target="_self" href="news-listing.html">Culture</a>
+        </div>
+        <div class="">
+          <a title="Environment" target="_self" href="news-listing.html">Environment</a>
+        </div>
+        <div class="wire-subheader-routes-separator"></div>
+        <div class="">
+          <a class="header-special-series-link" target="_self" href="news-listing.html">Series</a>
+        </div>
+        <div class="">
+          <a class="header-special-series-link" target="_self" href="news-listing.html">Columns</a>
+        </div>
+        <div class="">
+          <a class="header-special-series-link" target="_self" href="news-listing.html">Specials</a>
+        </div>
+      </div>
+    </div>
+    <div class="wire-support-wrapper">
+      <a href="news-listing.html" target="_self">
+        <div class="wire-support">
+          <div class="wire-support-text">
+            The Wire is run by a non-profit foundation and we need your
+            support to keep our newsroom running.
+          </div>
+          <div class="wire-support-text-mobile">
+            <span>Non-profit. Reader-funded. Independent.</span>
+            <a class="wire-support-donate-now-mobile" href="news-listing.html" target="_blank">Donate Now</a>
+          </div>
+          <div class="wire-support-know-more">DONATE NOW</div>
+        </div>
+      </a>
+    </div>
+  </header>
+  <main class="bg-grey">
+    <div class="tw-container" id="postDetailsContainer">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Serif+Caption">
+      <div class="postComplete">
+        <div class="postContentAndOthers">
+          <div class="postContentDiv">
+            <section id="1019676" data-permalink="urban/mumbai-official-falls-into-open-hole-in-front-of-mayor-rains"
+              data-id="1019676"
+              data-title="Mumbai Rains: Official Falls Into Open Hole In Front of Mayor Who Touted ‘Pre-monsoon Preparations’"
+              data-category="urban">
+              <div class="postComplete__post-header-wrapper">
+                <a href="news-details.html" target="_blank" title="All post in Urban">
+                  <div class="tag">Urban</div>
+                </a>
+                <div class="articleTitleContainer">
+                  <h1 class="title">
+                    <span>Mumbai Rains: Official Falls Into Open Hole In Front of Mayor Who Touted ‘Pre-monsoon
+                      Preparations’</span>
+                  </h1>
+                  <div class="">
+                    <div class="share">
+                      <div>
+                        <div class="author">
+                          <div class="avatars">
+                            <a title="All Stories by The Wire Staff" target="_blank" href="news-details.html">
+                              <span class="avatar">
+                                <img src="img/favicon.ico"
+                                  alt="The Wire Staff" title="The Wire Staff">
+                              </span>
+                            </a>
+                          </div>
+                          <div class="author__name-and-share">
+                            <div class="author__name">
+                              <a title="All Stories by The Wire Staff" target="_blank" href="news-details.html">The
+                                Wire Staff</a>
+                            </div>
+                            <div style="display: flex; gap: 8px; align-items: center;">
+                              <span class="posted-on">8 hours ago</span>
+                              <div class="posted-on ellipse"></div>
+                              <span class="posted-on">5 min read</span>
+                            </div>
+                          </div>
+                          <div class="author-seperate-line"></div>
+                          <div class="shareDiv">
+                            <div style="display: flex; gap: 10px; filter: grayscale(100%);">
+                              <div class="share-icon" style="cursor: pointer;">
+                                <div aria-label="Share on Facebook" role="button" tabindex="0"
+                                  class="SocialMediaShareButton SocialMediaShareButton--facebook">
+                                  <div style="width: 32px; height: 32px;">
+                                    <svg viewBox="0 0 64 64" width="32" height="32"
+                                      class="social-icon social-icon--facebook ">
+                                      <g>
+                                        <circle cx="32" cy="32" r="31" fill="#3b5998"></circle>
+                                      </g>
+                                      <g>
+                                        <path
+                                          d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
+                                          fill="white"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="share-icon" style="cursor: pointer;">
+                                <a href="news-details.html"
+                                  target="_blank" aria-label="share on twitter">
+                                  <img alt="twitter"
+                                    src="https://cdn.thewire.in/wp-content/uploads/icons8-twitterx-30.png"
+                                    style="width: 32px; height: 32px; border-radius: 50%; filter: contrast(30%);">
+                                </a>
+                              </div>
+                              <div class="share-icon" style="cursor: pointer;">
+                                <a href="news-details.html" target="_blank" aria-label="Share on LinkedIn">
+                                  <div style="width: 32px; height: 32px;">
+                                    <svg viewBox="0 0 64 64" width="32" height="32"
+                                      class="social-icon social-icon--linkedin ">
+                                      <g>
+                                        <circle cx="32" cy="32" r="31" fill="#007fb1"></circle>
+                                      </g>
+                                      <g>
+                                        <path
+                                          d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"
+                                          fill="white"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="share-icon" style="cursor: pointer;">
+                                <div aria-label="Share on Reddit" role="button" tabindex="0"
+                                  class="SocialMediaShareButton SocialMediaShareButton--reddit">
+                                  <div style="width: 32px; height: 32px;">
+                                    <svg viewBox="0 0 64 64" width="32" height="32"
+                                      class="social-icon social-icon--reddit ">
+                                      <g>
+                                        <circle cx="32" cy="32" r="31" fill="#5f99cf"></circle>
+                                      </g>
+                                      <g>
+                                        <path
+                                          d="m 52.8165,31.942362 c 0,-2.4803 -2.0264,-4.4965 -4.5169,-4.4965 -1.2155,0 -2.3171,0.4862 -3.128,1.2682 -3.077,-2.0247 -7.2403,-3.3133 -11.8507,-3.4782 l 2.5211,-7.9373 6.8272,1.5997 -0.0102,0.0986 c 0,2.0281 1.6575,3.6771 3.6958,3.6771 2.0366,0 3.6924,-1.649 3.6924,-3.6771 0,-2.0281 -1.6575,-3.6788 -3.6924,-3.6788 -1.564,0 -2.8968,0.9758 -3.4357,2.3443 l -7.3593,-1.7255 c -0.3213,-0.0782 -0.6477,0.1071 -0.748,0.4233 L 32,25.212062 c -4.8246,0.0578 -9.1953,1.3566 -12.41,3.4425 -0.8058,-0.7446 -1.8751,-1.2104 -3.0583,-1.2104 -2.4905,0 -4.5152,2.0179 -4.5152,4.4982 0,1.649 0.9061,3.0787 2.2389,3.8607 -0.0884,0.4794 -0.1462,0.9639 -0.1462,1.4569 0,6.6487 8.1736,12.0581 18.2223,12.0581 10.0487,0 18.224,-5.4094 18.224,-12.0581 0,-0.4658 -0.0493,-0.9248 -0.1275,-1.377 1.4144,-0.7599 2.3885,-2.2304 2.3885,-3.9406 z m -29.2808,3.0872 c 0,-1.4756 1.207,-2.6775 2.6894,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 -1.4824,0 -2.6894,-1.2002 -2.6894,-2.6758 z m 15.4037,7.9373 c -1.3549,1.3481 -3.4816,2.0043 -6.5008,2.0043 l -0.0221,-0.0051 -0.0221,0.0051 c -3.0209,0 -5.1476,-0.6562 -6.5008,-2.0043 -0.2465,-0.2448 -0.2465,-0.6443 0,-0.8891 0.2465,-0.2465 0.6477,-0.2465 0.8942,0 1.105,1.0999 2.9393,1.6337 5.6066,1.6337 l 0.0221,0.0051 0.0221,-0.0051 c 2.6673,0 4.5016,-0.5355 5.6066,-1.6354 0.2465,-0.2465 0.6477,-0.2448 0.8942,0 0.2465,0.2465 0.2465,0.6443 0,0.8908 z m -0.3213,-5.2615 c -1.4824,0 -2.6877,-1.2002 -2.6877,-2.6758 0,-1.4756 1.2053,-2.6775 2.6877,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 z"
+                                          fill="white"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="share-icon" style="cursor: pointer;">
+                                <div aria-label="Share on whatsapp" role="button" tabindex="0"
+                                  class="SocialMediaShareButton SocialMediaShareButton--whatsapp">
+                                  <div style="width: 32px; height: 32px;">
+                                    <svg viewBox="0 0 64 64" width="32" height="32"
+                                      class="social-icon social-icon--whatsapp ">
+                                      <g>
+                                        <circle cx="32" cy="32" r="31" fill="#2cb742"></circle>
+                                      </g>
+                                      <g>
+                                        <path
+                                          d="m42.32286,33.93287c-0.5178,-0.2589 -3.04726,-1.49644 -3.52105,-1.66732c-0.4712,-0.17346 -0.81554,-0.2589 -1.15987,0.2589c-0.34175,0.51004 -1.33075,1.66474 -1.63108,2.00648c-0.30032,0.33658 -0.60064,0.36247 -1.11327,0.12945c-0.5178,-0.2589 -2.17994,-0.80259 -4.14759,-2.56312c-1.53269,-1.37217 -2.56312,-3.05503 -2.86603,-3.57283c-0.30033,-0.5178 -0.03366,-0.80259 0.22524,-1.06149c0.23301,-0.23301 0.5178,-0.59547 0.7767,-0.90616c0.25372,-0.31068 0.33657,-0.5178 0.51262,-0.85437c0.17088,-0.36246 0.08544,-0.64725 -0.04402,-0.90615c-0.12945,-0.2589 -1.15987,-2.79613 -1.58964,-3.80584c-0.41424,-1.00971 -0.84142,-0.88027 -1.15987,-0.88027c-0.29773,-0.02588 -0.64208,-0.02588 -0.98382,-0.02588c-0.34693,0 -0.90616,0.12945 -1.37736,0.62136c-0.4712,0.5178 -1.80194,1.76053 -1.80194,4.27186c0,2.51134 1.84596,4.945 2.10227,5.30747c0.2589,0.33657 3.63497,5.51458 8.80262,7.74113c1.23237,0.5178 2.1903,0.82848 2.94111,1.08738c1.23237,0.38836 2.35599,0.33657 3.24402,0.20712c0.99159,-0.15534 3.04985,-1.24272 3.47963,-2.45956c0.44013,-1.21683 0.44013,-2.22654 0.31068,-2.45955c-0.12945,-0.23301 -0.46601,-0.36247 -0.98382,-0.59548m-9.40068,12.84407l-0.02589,0c-3.05503,0 -6.08417,-0.82849 -8.72495,-2.38189l-0.62136,-0.37023l-6.47252,1.68286l1.73463,-6.29129l-0.41424,-0.64725c-1.70875,-2.71846 -2.6149,-5.85116 -2.6149,-9.07706c0,-9.39809 7.68934,-17.06155 17.15993,-17.06155c4.58253,0 8.88029,1.78642 12.11655,5.02268c3.23625,3.21036 5.02267,7.50812 5.02267,12.06476c-0.0078,9.3981 -7.69712,17.06155 -17.14699,17.06155m14.58906,-31.58846c-3.93529,-3.80584 -9.1133,-5.95471 -14.62789,-5.95471c-11.36055,0 -20.60848,9.2065 -20.61625,20.52564c0,3.61684 0.94757,7.14565 2.75211,10.26282l-2.92557,10.63564l10.93337,-2.85309c3.0136,1.63108 6.4052,2.4958 9.85634,2.49839l0.01037,0c11.36574,0 20.61884,-9.2091 20.62403,-20.53082c0,-5.48093 -2.14111,-10.64081 -6.03239,-14.51915"
+                                          fill="white"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <a href="news-details.html"
+                                target="_blank" rel="noopener noreferrer" class="share-icon" style="cursor: pointer;">
+                                <img
+                                  src="https://img.cdn.sortd.mobi/thewire-in-prod-sortd/header_branding:brand_logob33cb670-540b-11f1-be9e-d7cb8a72b95d"
+                                  alt="Print" style="width: 32px; height: 32px;">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="shortDesc">Deputy mayor Sanjay Ghadi acknowledged that the BMC's preparations may not have
+                    covered all their bases – or holes.</p>
+                </div>
+              </div>
+              <div class="postComplete__post-image-wrapper">
+                <div class="featured-image valign-wrapper wp-caption aligncenter">
+                  <img src="https://cms.thewire.in/wp-content/uploads/2026/06/Kings-circle-1200x600.jpg"
+                    alt="Mumbai Rains: Official Falls Into Open Hole In Front of Mayor Who Touted ‘Pre-monsoon Preparations’"
+                    class="img-responsive" width="885" height="440">
+                  <p class="wp-caption-text">Mumbai mayor Ritu Tawde was speaking to officials when a BMC official fell
+                    into an open hole at this exact spot in the city's King's Circle area. Photo: X/@TawdeRitu.</p>
+                </div>
+              </div>
+              <div class="postComplete__post-content-wrapper">
+                <div class="postDescDiv">
+                  <div class="postComplete__description">
+                    <div class="col s12 m3 postComplete__banner" id="div-gpt-ad-1552302797359-0"
+                      style="padding: 0px 0px 0px 24px; float: right;"></div>
+                    <div class="">
+                      <p>
+                        <b>New Delhi:</b> A Mumbai civic official fell into an open maintenance hole in the city’s
+                        King’s Circle area on Wednesday (June 24), just metres away from where mayor Ritu Tawde was
+                        reviewing measures to deal with the neighbourhood’s persistent waterlogging issues.
+                      </p>
+                      <p>Tawde was seen speaking to officials in front of Mahatma Gandhi Market near King’s Circle when
+                        the official, an employee of the Brihanmumbai Municipal Corporation (BMC), <a target="_blank"
+                          href="news-details.html">lurched into an open maintenance hole</a>
+                        just off the curb.
+                      
+                      </p>
+                      <p>Having fallen waist-deep inside, the man was pulled out of the hole that was virtually
+                        invisible under the water carpeting the edge of Dr Babasaheb Ambedkar Road right in front of the
+                        mayor. Tawde was subsequently seen speaking sternly to other officials at the scene.</p>
+                      <p>At the pumping stations near the same market, she also told an ANI camera crew that the road
+                        here is clear and the <a target="_blank" href="news-details.html">water
+                          being actively drained out</a>. “Mumbai’s daily life is running smoothly – this is a testament
+                        to the <a target="_blank" href="news-details.html">pre-monsoon
+                          preparations</a> being well-executed this year,” she was quoted as saying in a BMC statement
+                        later in the day. </p>
+                      <p>But her deputy Sanjay Ghadi acknowledged Wednesday evening that the BMC’s preparations may not
+                        have covered all their bases – or holes.</p>
+                      <p>Submitting a representation to BMC commissioner Ashwini Bhide, <a target="_blank"
+                          href="news-details.html">Ghadi noted the corporation
+                          official’s fall</a> and said he had “demanded an immediate survey” of maintenance holes in
+                        Mumbai “and the installation of durable and secure grates on them”. The exercise should
+                        especially cover schools, hospitals, railway stations and areas prone to waterlogging, he said.
+                      
+                      </p>
+                      <p>For her part Tawde told NDTV that the maintenance hole in King’s Circle was uncovered to remove
+                        waste and <a target="_blank"
+                          href="news-details.html">appeared
+                          to blame the BMC official</a>, saying he should have noticed the barricades at the scene.
+                        Videos of the incident and <a target="_blank"
+                          href="news-details.html">pictures of the footpath</a>
+                        concerned show the presence of signage warning of a ‘high voltage area’. </p>
+                      <p>Varsha Gaikwad, Congress MP for Mumbai North East, said in a post addressed to Tawde that the
+                        incident was “not an accident” but of mayor’s “corruption [being] caught red-handed”.</p>
+                      <p>“Before telling the opposition to come out onto the streets and work, take a look at that
+                        citizen who has fallen into the pothole right in front of you. That man has fallen into the
+                        pothole of your inaction and corruption,” <a target="_blank"
+                          href="news-details.html">Gaikwad wrote on X</a>,
+                        referring to Tawde’s remarks. </p>
+                      <p>Monsoon rains arrived in Mumbai on Tuesday, around 12 days behind schedule, drenching the city
+                        with 225 mm to 250 mm of rainfall over a 24-hour period, the BMC said. The city tends to receive
+                        around 526 mm of rain in June according to meteorological data for 1991-2020.</p>
+                    </div>
+                  </div>
+                  <div class="__react_component_tooltip place-bottom type-dark allow_hover" data-id="tooltip">
+                    <div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="col s12 m10 postComplete">
+                    <div class="regionFilterHOC"></div>
+                  </div>
+                  <div class="col s12 m10" id="post-comments">
+                    <br>
+                  </div>
+                  <div id="div_20221221190950">
+                    <script id="afpftpPixel" data-pubid="6014" data-slotid="1" data-templateid="5829"
+                      data-accessmode="0" data-domain="thewire.in" data-divid="div_20221221190950"></script>
+                    <script data-cfasync="false">
+                      var scpt = document.getElementById("afpftpPixel");
+                      var domain = (window.location != window.parent.location) ? document.referrer : document.location.href;
+                      if (domain == "") {
+                        domain = (window.location != window.parent.location) ? window.parent.location : document.location.href;
+                      }
+                      scpt.src = "//adgebra.co.in/afpf/GetAfpftpJs?parentAttribute=afpftpPixel";
+                      document.getElementById("div_20221221190950").appendChild(scpt);
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div style="font-style: italic; color: rgb(149, 144, 144); margin: 27px 0px;">
+                <p>This article went live on June twenty-fifth, two thousand twenty six, at eleven minutes past one at
+                  night.</p>
+              </div>
+              <p class="whatsapp-channel">
+                <i> The Wire is now on WhatsApp. <a href="news-details.html"
+                    target="_blank"> Follow our channel </a>for sharp analysis and opinions on the latest developments.
+                </i>
+              </p>
+            </section>
+            <section class="news-listing-grid">
+              <div class="nl-items">
+                <img src="img/n1.jpg" alt="The Wire" class="nl-items__image">
+                <p class="nl-title">Help! Cancer spread from his ankle to his face and mouth!</p>
+                <div class="nl-bot">
+                  <p class="left">Give Hope India</p>
+                  <a href="news-details.html">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="nl-items">
+                <img src="img/n2.jpg" alt="The Wire" class="nl-items__image">
+                <p class="nl-title">The cost of hearing aids in Kumarpara might surprise you</p>
+                <div class="nl-bot">
+                  <p class="left">Give Hope India</p>
+                  <a href="news-details.html">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="nl-items">
+                <img src="img/n3.png" alt="The Wire" class="nl-items__image">
+                <p class="nl-title">Mr. Bala’s Powerful Intraday Strategy Revealed – No More Guesswork</p>
+                <div class="nl-bot">
+                  <p class="left">Give Hope India</p>
+                  <a href="news-details.html">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="postSuggestionAndContribution">
+            <div class="side-suggestions-wrapper">
+              <div class="side-suggestions-main-heading">Latest</div>
+              <div class="side-article-content">
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self" href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2026/06/IMP-Mahila-Haat-Entry-410x325.jpg"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2026/06/IMP-Mahila-Haat-Entry-410x325.jpg">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Books</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self" href="news-details.html">The Walkers of Daryaganj</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">Kanupriya Dhingra</a>
+                      </div>
+                      <div class="side-article-read-time-mc">5 mins read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self" href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2023/12/Passport_front_cover-410x325.png"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2023/12/Passport_front_cover-410x325.png">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Government</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self" href="news-details.html">Passport ‘Not
+                        a Document of Citizenship’, Says MEA</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">The Wire Staff</a>
+                      </div>
+                      <div class="side-article-read-time-mc">2 mins read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self" href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2026/06/Kings-circle-410x325.jpg"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2026/06/Kings-circle-410x325.jpg">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Urban</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self"
+                        href="news-details.html">Mumbai Rains:
+                        Official Falls Into Open Hole In Front of Mayor Who Touted ‘Pre-monsoon Preparations’</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">The Wire Staff</a>
+                      </div>
+                      <div class="side-article-read-time-mc">2 mins read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self"
+                    href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2026/06/DeborahLupton-PopChips-1280x678-1-410x325.jpg"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2026/06/DeborahLupton-PopChips-1280x678-1-410x325.jpg">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Business</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self"
+                        href="news-details.html">NITI's
+                        Warning on Pharma Import Dependence Meets CII's Case for Chinese Technology</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">The Wire Staff</a>
+                      </div>
+                      <div class="side-article-read-time-mc">4 mins read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self" href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2026/06/PTI06_24_2026_000452A-410x325.jpg"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2026/06/PTI06_24_2026_000452A-410x325.jpg">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Urban</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self" href="news-details.html">Five
+                        Workers Killed as Roof of Under-Construction Warehouse Collapses in Kolkata</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">The Wire Staff</a>
+                      </div>
+                      <div class="side-article-read-time-mc">1 min read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="side-article-wrapper-mc undefined undefined wfull-width">
+                  <a target="_self" href="news-details.html">
+                    <img alt="article image"
+                      data-src="https://cms.thewire.in/wp-content/uploads/2025/11/PTI11_26_2025_000341B-410x325.jpg"
+                      class="lazy-image lazy-loaded " loading="lazy" id="side-article-image-mc"
+                      src="https://cms.thewire.in/wp-content/uploads/2025/11/PTI11_26_2025_000341B-410x325.jpg">
+                  </a>
+                  <div class="side-article-text-wrapper-mc undefined">
+                    <div class="side-article-category-image-wrapper-mc">
+                      <a class="side-article-category-mc" target="_self" href="news-details.html">Security</a>
+                    </div>
+                    <div class="side-article-title-mc ">
+                      <a target="_self"
+                        href="news-details.html">What's the Real
+                        Story Behind IAF's Rafale 'Bridge Support' Contract</a>
+                    </div>
+                    <div class="side-article-author-time-wrapper-mc ">
+                      <div class="side-article-author-mc">
+                        <a target="_self" href="news-details.html">Rahul Bedi</a>
+                      </div>
+                      <div class="side-article-read-time-mc">6 mins read</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="icp3-wrapper icp3-separator">
+                  <style>
+                    .icp3-wrapper body {
+                      margin: 0;
+                    }
+
+                    .icp3-wrapper #icp3-overlay {
+                      position: relative;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      z-index: 1;
+                    }
+
+                    .icp3-card {
+                      z-index: 1;
+                      background: #f99d1b;
+                      color: white;
+                      max-width: 365px;
+                      border-radius: 35px;
+                      position: relative;
+                      padding: 0 0 20px;
+                      transform: translate(-50%, -50%);
+                      /* box-shadow: 0px 1px 13px 3px #0000004d; */
+                      text-align: left;
+                    }
+
+                    .icp3-logo img {
+                      width: 130px;
+                    }
+
+                    .icp3-card h1 {
+                      margin-bottom: 38px;
+                      line-height: 34px;
+                      font-size: 31px;
+                      font-weight: 700;
+                      padding: 0 10%;
+                      margin-top: 33px;
+                    }
+
+                    .icp3-card h2 {
+                      margin-top: -20px;
+                      margin-bottom: 20px;
+                      line-height: 23px;
+                      font-size: 16px;
+                      font-weight: 400;
+                      padding: 0 10%;
+                    }
+
+                    .icp3-card h3 {
+                      width: 100%;
+                      margin: 0 0 17px;
+                      font-size: 20px;
+                      line-height: 19px;
+                      padding: 0 10%;
+                    }
+
+                    .icp3-small-h3 h3 {
+                      font-size: 16px !important;
+                      font-weight: 500 !important;
+                      text-transform: none !important;
+                    }
+
+                    .icp3-large-h3 h3 {
+                      font-size: 20px !important;
+                    }
+
+                    .icp3-btn {
+                      box-shadow: 0px 1px 5px 2px #00000047;
+                      color: #cf2e2e;
+                      font-weight: bold;
+                      text-decoration: none;
+                      border-radius: 20px;
+                      padding: 9px 14px;
+                      margin: 0 10% 10px;
+                      background: #fff;
+                      display: inline-block;
+                    }
+
+                    .icp3-btn:hover {
+                      background: #ffecec;
+                    }
+
+                    .icp3-icon-group img {
+                      width: 100%;
+                      border-radius: 0 0 35px 35px;
+                    }
+
+                    @media (max-width: 360px) {
+                      .icp3-card {
+                        min-width: 329px !important;
+                        padding: 0px 10px 30px !important;
+                      }
+                    }
+
+                    @media (max-width: 768px) {
+                      .icp3-card {
+                        min-width: 329px;
+                      }
+                    }
+
+                    .icp3-wrapper.icp3-separator #icp3-overlay {
+                      top: 0;
+                    }
+
+                    .icp3-wrapper.icp3-separator .icp3-card {
+                      max-width: 100% !important;
+                      width: 100% !important;
+                      margin: 30px 0 !important;
+                      border-radius: 6px;
+                      position: relative !important;
+                      transform: none !important;
+                      height: 436px !important;
+                      padding: 4px 0px 0 0 !important;
+                    }
+
+                    .icp3-wrapper.icp3-separator #icp3-overlay {
+                      top: 26px;
+                    }
+
+                    .icp3-large-h3 h3 {
+                      font-size: 20px !important;
+                      text-transform: none !important;
+                    }
+
+                    .icp3-wrapper.icp3-separator {
+                      height: 0;
+                      border-bottom: 2.5px solid #bbbab6ff;
+                      padding-top: 13px !important;
+                      margin-bottom: 0px !important;
+                    }
+                  </style>
+                  <div id="icp3-overlay">
+                    <div id="icp3-popup" class="icp3-card icp3-small-h3">
+                      <div class="icp3-newsroom">
+                        <div class="icp3-logo">
+                          <h1>The <br> India Cable </h1>
+                        </div>
+                        <h2>A premium, daily newsletter about India, curated by the Editors of <b>Ei-Samay.</b>
+                        </h2>
+                        <h3>The India Cable gives you the context others miss.</h3>
+                        <a href="news-details.html"
+                          class="icp3-btn">Subscribe Now</a>
+                        <div class="icp3-icon-group">
+                          <img
+                            src="https://img.cdn.sortd.mobi/thewire-in-prod-sortd/header_branding:header_brand_logo35197890-c37f-11f0-97d6-1718ce32efe8">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>
+          @media only screen and (max-width: 600px) {
+            .growler {
+              bottom: 8.5% !important;
+            }
+          }
+        </style>
+        <div class="bottom-suggestions-wrapper">
+          <div class="bottom-suggestions-main-heading">Suggested Reads</div>
+          <div class="bottom-suggestions-article-wrapper">
+            <div class="bottom-suggestions-article">
+              <div class="bottom-suggestions-article-image-dp">
+                <a target="_blank" href="news-details.html">
+                  <img src="https://cms.thewire.in/wp-content/uploads/2026/06/IMP-Mahila-Haat-Entry.jpg" alt="article">
+                </a>
+              </div>
+              <div class="bottom-suggestions-article-text-wrapper">
+                <div class="bottom-suggestions-article-type-and-bookmark">
+                  <a class="bottom-suggestions-article-type" target="_blank" href="news-listing.html">urban</a>
+                </div>
+                <div class="bottom-suggestions-article-title-dp">
+                  <a target="_blank" href="news-details.html">The Walkers of Daryaganj</a>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-suggestions-article">
+              <div class="bottom-suggestions-article-image-dp">
+                <a target="_blank" href="news-details.html">
+                  <img src="https://cms.thewire.in/wp-content/uploads/2026/06/PTI06_24_2026_000452A-scaled.jpg"
+                    alt="article">
+                </a>
+              </div>
+              <div class="bottom-suggestions-article-text-wrapper">
+                <div class="bottom-suggestions-article-type-and-bookmark">
+                  <a class="bottom-suggestions-article-type" target="_blank" href="news-listing.html">urban</a>
+                </div>
+                <div class="bottom-suggestions-article-title-dp">
+                  <a target="_blank" href="news-details.html">Five
+                    Workers Killed as Roof of Under-Construction Warehouse Collapses in Kolkata</a>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-suggestions-article">
+              <div class="bottom-suggestions-article-image-dp">
+                <a target="_blank"
+                  href="news-details.html">
+                  <img src="https://cms.thewire.in/wp-content/uploads/2026/06/1000281169.jpg" alt="article">
+                </a>
+              </div>
+              <div class="bottom-suggestions-article-text-wrapper">
+                <div class="bottom-suggestions-article-type-and-bookmark">
+                  <a class="bottom-suggestions-article-type" target="_blank" href="news-listing.html">urban</a>
+                </div>
+                <div class="bottom-suggestions-article-title-dp">
+                  <a target="_blank"
+                    href="news-details.html">Eyewitnesses
+                    of Lucknow Fire Point to Lack of Escape Routes, Emergency Response Time</a>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-suggestions-article">
+              <div class="bottom-suggestions-article-image-dp">
+                <a target="_blank" href="news-details.html">
+                  <img src="https://cms.thewire.in/wp-content/uploads/2026/06/gopal-1.jpg" alt="article">
+                </a>
+              </div>
+              <div class="bottom-suggestions-article-text-wrapper">
+                <div class="bottom-suggestions-article-type-and-bookmark">
+                  <a class="bottom-suggestions-article-type" target="_blank" href="news-listing.html">urban</a>
+                </div>
+                <div class="bottom-suggestions-article-title-dp">
+                  <a target="_blank"
+                    href="news-details.html">BJP Government
+                    Confuses Its Suhrawardys, Renames Kolkata Road Honouring Surgeon After Gopal Patha</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-head">
+        <img src="img/eisamay-logo-footer.webp" alt="the wire logo" class="footer-logo" />
+        <div class="div">
+          <a target="_blank" href="#">
+            <img alt="twitter_logo" data-src="https://cdn.thewire.in/wp-content/uploads/icons8-twitterx-30.png"
+              class="lazy-image lazy-loaded" style="background: rgb(236, 226, 200)"
+              src="https://cdn.thewire.in/wp-content/uploads/icons8-twitterx-30.png" />
+          </a>
+          <a target="_blank" href="news-details.html">
+            <img alt="instagram_logo"
+              data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGlkPSJpbnN0YWdyYW0iPgogICAgICAgIDxwYXRoIGlkPSJWZWN0b3IgKFN0cm9rZSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIgogICAgICAgICAgICBkPSJNOC40NDQwNiA0LjIyMTM1QzYuMTEyMiA0LjIyMTM1IDQuMjIxODQgNi4xMTE3MSA0LjIyMTg0IDguNDQzNThWMTkuNTU0N0M0LjIyMTg0IDIxLjg4NjYgNi4xMTIyIDIzLjc3NjkgOC40NDQwNiAyMy43NzY5SDE5LjU1NTJDMjEuODg3IDIzLjc3NjkgMjMuNzc3NCAyMS44ODY2IDIzLjc3NzQgMTkuNTU0N1Y4LjQ0MzU4QzIzLjc3NzQgNi4xMTE3MSAyMS44ODcgNC4yMjEzNSAxOS41NTUyIDQuMjIxMzVIOC40NDQwNlpNMS41NTUxOCA4LjQ0MzU4QzEuNTU1MTggNC42Mzg5NSA0LjYzOTQ0IDEuNTU0NjkgOC40NDQwNiAxLjU1NDY5SDE5LjU1NTJDMjMuMzU5OCAxLjU1NDY5IDI2LjQ0NDEgNC42Mzg5NSAyNi40NDQxIDguNDQzNThWMTkuNTU0N0MyNi40NDQxIDIzLjM1OTMgMjMuMzU5OCAyNi40NDM2IDE5LjU1NTIgMjYuNDQzNkg4LjQ0NDA2QzQuNjM5NDQgMjYuNDQzNiAxLjU1NTE4IDIzLjM1OTMgMS41NTUxOCAxOS41NTQ3VjguNDQzNThaIgogICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiAvPgogICAgICAgIDxwYXRoIGlkPSJWZWN0b3IgKFN0cm9rZSlfMiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgIGQ9Ik0xNC41MDQyIDEwLjg3NDJDMTMuODU2OSAxMC43NzgyIDEzLjE5NTggMTAuODg4NyAxMi42MTQ5IDExLjE5MDFDMTIuMDM0MSAxMS40OTE1IDExLjU2MzEgMTEuOTY4NCAxMS4yNjg5IDEyLjU1MjlDMTAuOTc0NiAxMy4xMzc0IDEwLjg3MjIgMTMuNzk5OCAxMC45NzYyIDE0LjQ0NTlDMTEuMDgwMiAxNS4wOTE5IDExLjM4NTIgMTUuNjg4OCAxMS44NDc5IDE2LjE1MTVDMTIuMzEwNiAxNi42MTQyIDEyLjkwNzUgMTYuOTE5MiAxMy41NTM1IDE3LjAyMzJDMTQuMTk5NiAxNy4xMjcyIDE0Ljg2MiAxNy4wMjQ4IDE1LjQ0NjUgMTYuNzMwNkMxNi4wMzEgMTYuNDM2NCAxNi41MDc5IDE1Ljk2NTMgMTYuODA5MyAxNS4zODQ1QzE3LjExMDcgMTQuODAzNyAxNy4yMjEzIDE0LjE0MjYgMTcuMTI1MyAxMy40OTUzQzE3LjAyNzQgMTIuODM1IDE2LjcxOTcgMTIuMjIzNyAxNi4yNDc3IDExLjc1MTdDMTUuNzc1NyAxMS4yNzk3IDE1LjE2NDQgMTAuOTcyMSAxNC41MDQyIDEwLjg3NDJaTTExLjM4NjcgOC44MjMxMkMxMi40NjU0IDguMjYzNCAxMy42OTMyIDguMDU4MDcgMTQuODk1MyA4LjIzNjMzQzE2LjEyMTUgOC40MTgxNiAxNy4yNTY4IDguOTg5NTUgMTguMTMzMyA5Ljg2NjExQzE5LjAwOTkgMTAuNzQyNyAxOS41ODEzIDExLjg3NzkgMTkuNzYzMSAxMy4xMDQxQzE5Ljk0MTMgMTQuMzA2MiAxOS43MzYgMTUuNTM0IDE5LjE3NjMgMTYuNjEyN0MxOC42MTY2IDE3LjY5MTQgMTcuNzMxIDE4LjU2NjEgMTYuNjQ1NCAxOS4xMTI1QzE1LjU1OTkgMTkuNjU4OSAxNC4zMjk3IDE5Ljg0OTEgMTMuMTI5OSAxOS42NTZDMTEuOTMgMTkuNDYyOSAxMC44MjE2IDE4Ljg5NjQgOS45NjIzIDE4LjAzNzFDOS4xMDI5NyAxNy4xNzc4IDguNTM2NDggMTYuMDY5NCA4LjM0MzQxIDE0Ljg2OTVDOC4xNTAzMyAxMy42Njk3IDguMzQwNTEgMTIuNDM5NSA4Ljg4Njg5IDExLjM1NEM5LjQzMzI3IDEwLjI2ODUgMTAuMzA4IDkuMzgyODQgMTEuMzg2NyA4LjgyMzEyWiIKICAgICAgICAgICAgZmlsbD0iI0VDRTJDOCIgLz4KICAgICAgICA8cGF0aCBpZD0iVmVjdG9yIChTdHJva2UpXzMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIgogICAgICAgICAgICBkPSJNMTguNzc3OCA3Ljg4ODAyQzE4Ljc3NzggNy4xNTE2NCAxOS4zNzQ4IDYuNTU0NjkgMjAuMTExMiA2LjU1NDY5SDIwLjEyMTJDMjAuODU3NSA2LjU1NDY5IDIxLjQ1NDUgNy4xNTE2NCAyMS40NTQ1IDcuODg4MDJDMjEuNDU0NSA4LjYyNDQgMjAuODU3NSA5LjIyMTM1IDIwLjEyMTIgOS4yMjEzNUgyMC4xMTEyQzE5LjM3NDggOS4yMjEzNSAxOC43Nzc4IDguNjI0NCAxOC43Nzc4IDcuODg4MDJaIgogICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiAvPgogICAgPC9nPgo8L3N2Zz4="
+              class="lazy-image lazy-loaded"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGlkPSJpbnN0YWdyYW0iPgogICAgICAgIDxwYXRoIGlkPSJWZWN0b3IgKFN0cm9rZSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIgogICAgICAgICAgICBkPSJNOC40NDQwNiA0LjIyMTM1QzYuMTEyMiA0LjIyMTM1IDQuMjIxODQgNi4xMTE3MSA0LjIyMTg0IDguNDQzNThWMTkuNTU0N0M0LjIyMTg0IDIxLjg4NjYgNi4xMTIyIDIzLjc3NjkgOC40NDQwNiAyMy43NzY5SDE5LjU1NTJDMjEuODg3IDIzLjc3NjkgMjMuNzc3NCAyMS44ODY2IDIzLjc3NzQgMTkuNTU0N1Y4LjQ0MzU4QzIzLjc3NzQgNi4xMTE3MSAyMS44ODcgNC4yMjEzNSAxOS41NTUyIDQuMjIxMzVIOC40NDQwNlpNMS41NTUxOCA4LjQ0MzU4QzEuNTU1MTggNC42Mzg5NSA0LjYzOTQ0IDEuNTU0NjkgOC40NDQwNiAxLjU1NDY5SDE5LjU1NTJDMjMuMzU5OCAxLjU1NDY5IDI2LjQ0NDEgNC42Mzg5NSAyNi40NDQxIDguNDQzNThWMTkuNTU0N0MyNi40NDQxIDIzLjM1OTMgMjMuMzU5OCAyNi40NDM2IDE5LjU1NTIgMjYuNDQzNkg4LjQ0NDA2QzQuNjM5NDQgMjYuNDQzNiAxLjU1NTE4IDIzLjM1OTMgMS41NTUxOCAxOS41NTQ3VjguNDQzNThaIgogICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiAvPgogICAgICAgIDxwYXRoIGlkPSJWZWN0b3IgKFN0cm9rZSlfMiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgIGQ9Ik0xNC41MDQyIDEwLjg3NDJDMTMuODU2OSAxMC43NzgyIDEzLjE5NTggMTAuODg4NyAxMi42MTQ5IDExLjE5MDFDMTIuMDM0MSAxMS40OTE1IDExLjU2MzEgMTEuOTY4NCAxMS4yNjg5IDEyLjU1MjlDMTAuOTc0NiAxMy4xMzc0IDEwLjg3MjIgMTMuNzk5OCAxMC45NzYyIDE0LjQ0NTlDMTEuMDgwMiAxNS4wOTE5IDExLjM4NTIgMTUuNjg4OCAxMS44NDc5IDE2LjE1MTVDMTIuMzEwNiAxNi42MTQyIDEyLjkwNzUgMTYuOTE5MiAxMy41NTM1IDE3LjAyMzJDMTQuMTk5NiAxNy4xMjcyIDE0Ljg2MiAxNy4wMjQ4IDE1LjQ0NjUgMTYuNzMwNkMxNi4wMzEgMTYuNDM2NCAxNi41MDc5IDE1Ljk2NTMgMTYuODA5MyAxNS4zODQ1QzE3LjExMDcgMTQuODAzNyAxNy4yMjEzIDE0LjE0MjYgMTcuMTI1MyAxMy40OTUzQzE3LjAyNzQgMTIuODM1IDE2LjcxOTcgMTIuMjIzNyAxNi4yNDc3IDExLjc1MTdDMTUuNzc1NyAxMS4yNzk3IDE1LjE2NDQgMTAuOTcyMSAxNC41MDQyIDEwLjg3NDJaTTExLjM4NjcgOC44MjMxMkMxMi40NjU0IDguMjYzNCAxMy42OTMyIDguMDU4MDcgMTQuODk1MyA4LjIzNjMzQzE2LjEyMTUgOC40MTgxNiAxNy4yNTY4IDguOTg5NTUgMTguMTMzMyA5Ljg2NjExQzE5LjAwOTkgMTAuNzQyNyAxOS41ODEzIDExLjg3NzkgMTkuNzYzMSAxMy4xMDQxQzE5Ljk0MTMgMTQuMzA2MiAxOS43MzYgMTUuNTM0IDE5LjE3NjMgMTYuNjEyN0MxOC42MTY2IDE3LjY5MTQgMTcuNzMxIDE4LjU2NjEgMTYuNjQ1NCAxOS4xMTI1QzE1LjU1OTkgMTkuNjU4OSAxNC4zMjk3IDE5Ljg0OTEgMTMuMTI5OSAxOS42NTZDMTEuOTMgMTkuNDYyOSAxMC44MjE2IDE4Ljg5NjQgOS45NjIzIDE4LjAzNzFDOS4xMDI5NyAxNy4xNzc4IDguNTM2NDggMTYuMDY5NCA4LjM0MzQxIDE0Ljg2OTVDOC4xNTAzMyAxMy42Njk3IDguMzQwNTEgMTIuNDM5NSA4Ljg4Njg5IDExLjM1NEM5LjQzMzI3IDEwLjI2ODUgMTAuMzA4IDkuMzgyODQgMTEuMzg2NyA4LjgyMzEyWiIKICAgICAgICAgICAgZmlsbD0iI0VDRTJDOCIgLz4KICAgICAgICA8cGF0aCBpZD0iVmVjdG9yIChTdHJva2UpXzMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIgogICAgICAgICAgICBkPSJNMTguNzc3OCA3Ljg4ODAyQzE4Ljc3NzggNy4xNTE2NCAxOS4zNzQ4IDYuNTU0NjkgMjAuMTExMiA2LjU1NDY5SDIwLjEyMTJDMjAuODU3NSA2LjU1NDY5IDIxLjQ1NDUgNy4xNTE2NCAyMS40NTQ1IDcuODg4MDJDMjEuNDU0NSA4LjYyNDQgMjAuODU3NSA5LjIyMTM1IDIwLjEyMTIgOS4yMjEzNUgyMC4xMTEyQzE5LjM3NDggOS4yMjEzNSAxOC43Nzc4IDguNjI0NCAxOC43Nzc4IDcuODg4MDJaIgogICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiAvPgogICAgPC9nPgo8L3N2Zz4=" />
+          </a>
+          <a target="_blank" href="#">
+            <img alt="facebook_logo"
+              data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0iI2ZmZmZmZiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGlkPSJJY29uIj4KICAgICAgICA8ZyBpZD0iVmVjdG9yIChTdHJva2UpIj4KICAgICAgICAgICAgPG1hc2sgaWQ9InBhdGgtMS1pbnNpZGUtMV8xOTcxXzk3MjgiIGZpbGw9IiNmZmZmZmYiPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgICAgICAgICAgZD0iTTE1Ljk5NDkgNy45ODk5QzE1LjQ0NyA4LjU1OTc2IDE1LjA5OCA5LjQ4NjYyIDE1LjA5OCAxMC45MTkxVjEzLjA3ODRIMTIuMTE3NlYxNC45NDEySDE1LjA5OFYyMy44ODI0SDE2Ljk2MDhWMTQuOTQxMkgxOS43NDI2TDIwLjAwODUgMTMuMDc4NEgxNi45NjA4VjExLjI0NjJDMTYuOTYwOCAxMC42Mzc3IDE3LjA1NTEgMTAuMDUwOCAxNy40MDM0IDkuNjE1MTRDMTcuNzc1OCA5LjE0OTM5IDE4LjMzMjcgOC45ODAzOSAxOC45NjIxIDguOTgwMzlIMjAuMTIwN1Y3LjE4NTA0QzE5Ljc2OTEgNy4xNTA2NiAxOS4yNTg2IDcuMTE3NjUgMTguNTMzNyA3LjExNzY1QzE3LjM2ODUgNy4xMTc2NSAxNi41MzkgNy40MjM5NyAxNS45OTQ5IDcuOTg5OVpNMTUuMTg5MiA3LjIxNTMyQzE2LjAxMjcgNi4zNTg2NyAxNy4xODA1IDYgMTguNTMzNyA2QzE5Ljc1NzggNiAyMC40MjA5IDYuMDkwMSAyMC43NDMgNi4xMzM4N0wyMS4yMzg0IDYuMjAxMTVWMTAuMDk4SDE4Ljk2MjFDMTguNTIyMyAxMC4wOTggMTguMzU3OSAxMC4yMTExIDE4LjI3NjQgMTAuMzEzMUMxOC4xNzA3IDEwLjQ0NTIgMTguMDc4NCAxMC43MTE4IDE4LjA3ODQgMTEuMjQ2MlYxMS45NjA4SDIxLjI5N0wyMC43MTIgMTYuMDU4OEgxOC4wNzg0VjI1SDEzLjk4MDRWMTYuMDU4OEgxMVYxMS45NjA4SDEzLjk4MDRWMTAuOTE5MUMxMy45ODA0IDkuMzIxMzQgMTQuMzY5NCA4LjA2ODA0IDE1LjE4OTIgNy4yMTUzMloiIC8+CiAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgICAgICBkPSJNMTUuOTk0OSA3Ljk4OTlDMTUuNDQ3IDguNTU5NzYgMTUuMDk4IDkuNDg2NjIgMTUuMDk4IDEwLjkxOTFWMTMuMDc4NEgxMi4xMTc2VjE0Ljk0MTJIMTUuMDk4VjIzLjg4MjRIMTYuOTYwOFYxNC45NDEySDE5Ljc0MjZMMjAuMDA4NSAxMy4wNzg0SDE2Ljk2MDhWMTEuMjQ2MkMxNi45NjA4IDEwLjYzNzcgMTcuMDU1MSAxMC4wNTA4IDE3LjQwMzQgOS42MTUxNEMxNy43NzU4IDkuMTQ5MzkgMTguMzMyNyA4Ljk4MDM5IDE4Ljk2MjEgOC45ODAzOUgyMC4xMjA3VjcuMTg1MDRDMTkuNzY5MSA3LjE1MDY2IDE5LjI1ODYgNy4xMTc2NSAxOC41MzM3IDcuMTE3NjVDMTcuMzY4NSA3LjExNzY1IDE2LjUzOSA3LjQyMzk3IDE1Ljk5NDkgNy45ODk5Wk0xNS4xODkyIDcuMjE1MzJDMTYuMDEyNyA2LjM1ODY3IDE3LjE4MDUgNiAxOC41MzM3IDZDMTkuNzU3OCA2IDIwLjQyMDkgNi4wOTAxIDIwLjc0MyA2LjEzMzg3TDIxLjIzODQgNi4yMDExNVYxMC4wOThIMTguOTYyMUMxOC41MjIzIDEwLjA5OCAxOC4zNTc5IDEwLjIxMTEgMTguMjc2NCAxMC4zMTMxQzE4LjE3MDcgMTAuNDQ1MiAxOC4wNzg0IDEwLjcxMTggMTguMDc4NCAxMS4yNDYyVjExLjk2MDhIMjEuMjk3TDIwLjcxMiAxNi4wNTg4SDE4LjA3ODRWMjVIMTMuOTgwNFYxNi4wNTg4SDExVjExLjk2MDhIMTMuOTgwNFYxMC45MTkxQzEzLjk4MDQgOS4zMjEzNCAxNC4zNjk0IDguMDY4MDQgMTUuMTg5MiA3LjIxNTMyWiIKICAgICAgICAgICAgICAgIGZpbGw9IiNFQ0UyQzgiIC8+CiAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICBkPSJNMTUuOTk0OSA3Ljk4OTlMMy43Mzk3MSAtMy43OTE4OUwzLjczOTcxIC0zLjc5MTg5TDE1Ljk5NDkgNy45ODk5Wk0xNS4wOTggMTMuMDc4NFYzMC4wNzg0SDMyLjA5OFYxMy4wNzg0SDE1LjA5OFpNMTIuMTE3NiAxMy4wNzg0Vi0zLjkyMTU3SC00Ljg4MjM1VjEzLjA3ODRIMTIuMTE3NlpNMTIuMTE3NiAxNC45NDEySC00Ljg4MjM1VjMxLjk0MTJIMTIuMTE3NlYxNC45NDEyWk0xNS4wOTggMTQuOTQxMkgzMi4wOThWLTIuMDU4ODJIMTUuMDk4VjE0Ljk0MTJaTTE1LjA5OCAyMy44ODI0SC0xLjkwMTk2VjQwLjg4MjRIMTUuMDk4VjIzLjg4MjRaTTE2Ljk2MDggMjMuODgyNFY0MC44ODI0SDMzLjk2MDhWMjMuODgyNEgxNi45NjA4Wk0xNi45NjA4IDE0Ljk0MTJWLTIuMDU4ODJILTAuMDM5MjE1MVYxNC45NDEySDE2Ljk2MDhaTTE5Ljc0MjYgMTQuOTQxMlYzMS45NDEySDM0LjQ4ODJMMzYuNTcyIDE3LjM0MzZMMTkuNzQyNiAxNC45NDEyWk0yMC4wMDg1IDEzLjA3ODRMMzYuODM3OSAxNS40ODA4TDM5LjYwNzYgLTMuOTIxNTdIMjAuMDA4NVYxMy4wNzg0Wk0xNi45NjA4IDEzLjA3ODRILTAuMDM5MjE1MVYzMC4wNzg0SDE2Ljk2MDhWMTMuMDc4NFpNMTcuNDAzNCA5LjYxNTE0TDQuMTI1NyAtMS4wMDA5N0w0LjEyNTcgLTEuMDAwOTZMMTcuNDAzNCA5LjYxNTE0Wk0yMC4xMjA3IDguOTgwMzlWMjUuOTgwNEgzNy4xMjA3VjguOTgwMzlIMjAuMTIwN1pNMjAuMTIwNyA3LjE4NTA0SDM3LjEyMDdWLTguMjMzNzNMMjEuNzc1MiAtOS43MzQyNkwyMC4xMjA3IDcuMTg1MDRaTTE1LjE4OTIgNy4yMTUzMkwyNy40NDQ0IDE4Ljk5NzFIMjcuNDQ0NEwxNS4xODkyIDcuMjE1MzJaTTIwLjc0MyA2LjEzMzg3TDE4LjQ1NCAyMi45NzkxTDE4LjQ1NTMgMjIuOTc5MkwyMC43NDMgNi4xMzM4N1pNMjEuMjM4NCA2LjIwMTE1SDM4LjIzODRWLTguNjQ2MjNMMjMuNTI2MSAtMTAuNjQ0MkwyMS4yMzg0IDYuMjAxMTVaTTIxLjIzODQgMTAuMDk4VjI3LjA5OEgzOC4yMzg0VjEwLjA5OEgyMS4yMzg0Wk0xOC4yNzY0IDEwLjMxMzFMMzEuNTU0MSAyMC45MjkyTDMxLjU1NDEgMjAuOTI5MkwxOC4yNzY0IDEwLjMxMzFaTTE4LjA3ODQgMTEuOTYwOEgxLjA3ODQzVjI4Ljk2MDhIMTguMDc4NFYxMS45NjA4Wk0yMS4yOTcgMTEuOTYwOEwzOC4xMjY0IDE0LjM2MzJMNDAuODk2MSAtNS4wMzkyMkwyMS4yOTcgLTUuMDM5MjJWMTEuOTYwOFpNMjAuNzEyIDE2LjA1ODhWMzMuMDU4OEgzNS40NTc2TDM3LjU0MTQgMTguNDYxMkwyMC43MTIgMTYuMDU4OFpNMTguMDc4NCAxNi4wNTg4Vi0wLjk0MTE3NkgxLjA3ODQzVjE2LjA1ODhIMTguMDc4NFpNMTguMDc4NCAyNVY0MkgzNS4wNzg0VjI1SDE4LjA3ODRaTTEzLjk4MDQgMjVILTMuMDE5NjFWNDJIMTMuOTgwNFYyNVpNMTMuOTgwNCAxNi4wNTg4SDMwLjk4MDRWLTAuOTQxMTc2SDEzLjk4MDRWMTYuMDU4OFpNMTEgMTYuMDU4OEgtNlYzMy4wNTg4SDExVjE2LjA1ODhaTTExIDExLjk2MDhWLTUuMDM5MjJILTZWMTEuOTYwOEgxMVpNMTMuOTgwNCAxMS45NjA4VjI4Ljk2MDhIMzAuOTgwNFYxMS45NjA4SDEzLjk4MDRaTTMyLjA5OCAxMC45MTkxQzMyLjA5OCAxMi4wMTE2IDMxLjgzMyAxNi4wNDQ4IDI4LjI1MDEgMTkuNzcxN0wzLjczOTcxIC0zLjc5MTg5Qy0wLjkzODk1NiAxLjA3NDc3IC0xLjkwMTk2IDYuOTYxNiAtMS45MDE5NiAxMC45MTkxSDMyLjA5OFpNMjkuMTE3NiAxNC45NDEyVjEzLjA3ODRILTQuODgyMzVWMTQuOTQxMkgyOS4xMTc2Wk0xNi45NjA4IDYuODgyMzVIMTUuMDk4VjQwLjg4MjRIMTYuOTYwOFY2Ljg4MjM1Wk0zLjE3OTA5IDEwLjY3NkwyLjkxMzE4IDEyLjUzODhMMzYuNTcyIDE3LjM0MzZMMzYuODM3OSAxNS40ODA4TDMuMTc5MDkgMTAuNjc2Wk00LjEyNTcgLTEuMDAwOTZDMC4wODczNDEzIDQuMDQ5ODggLTAuMDM5MjE1MSA5LjUwOTg5IC0wLjAzOTIxNTEgMTEuMjQ2MkgzMy45NjA4QzMzLjk2MDggMTEuNzM3NCAzMy45MzIgMTIuODg4IDMzLjU3NDEgMTQuMzY2MUMzMy4yMDE0IDE1LjkwNTggMzIuNDAzIDE4LjA3NzcgMzAuNjgxMiAyMC4yMzEyTDQuMTI1NyAtMS4wMDA5NlpNMTguOTYyMSAtOC4wMTk2MUMxNS40OTM2IC04LjAxOTYxIDguOTQwNzggLTcuMDIzMjYgNC4xMjU3IC0xLjAwMDk3TDMwLjY4MTIgMjAuMjMxMkMyNi42MTA5IDI1LjMyMjEgMjEuMTcxOSAyNS45ODA0IDE4Ljk2MjEgMjUuOTgwNFYtOC4wMTk2MVpNMjAuMTIwNyAtOC4wMTk2MUgxOC45NjIxVjI1Ljk4MDRIMjAuMTIwN1YtOC4wMTk2MVpNMy4xMjA3NCA3LjE4NTA0VjguOTgwMzlIMzcuMTIwN1Y3LjE4NTA0SDMuMTIwNzRaTTE4LjUzMzcgMjQuMTE3NkMxOC42MzczIDI0LjExNzYgMTguNjc0OSAyNC4xMiAxOC42NTQzIDI0LjExOUMxOC42NDQzIDI0LjExODUgMTguNjIyMSAyNC4xMTczIDE4LjU4ODYgMjQuMTE0OUMxOC41NTQ4IDI0LjExMjQgMTguNTEzNyAyNC4xMDkgMTguNDY2MyAyNC4xMDQ0TDIxLjc3NTIgLTkuNzM0MjZDMjAuODUzNSAtOS44MjQzOSAxOS43OTA0IC05Ljg4MjM1IDE4LjUzMzcgLTkuODgyMzVWMjQuMTE3NlpNMjguMjUwMSAxOS43NzE3QzI0LjU1MDggMjMuNjE5NiAyMC4yNDM4IDI0LjExNzYgMTguNTMzNyAyNC4xMTc2Vi05Ljg4MjM1QzE0LjQ5MzIgLTkuODgyMzUgOC41MjcxIC04Ljc3MTYzIDMuNzM5NzEgLTMuNzkxODlMMjguMjUwMSAxOS43NzE3Wk0xOC41MzM3IC0xMUMxNC4zMzI0IC0xMSA4LjAxNDY0IC05Ljg1MTI0IDIuOTM0MDEgLTQuNTY2NDdMMjcuNDQ0NCAxOC45OTcxQzI0LjAxMDggMjIuNTY4NiAyMC4wMjg1IDIzIDE4LjUzMzcgMjNWLTExWk0yMy4wMzIgLTEwLjcxMTNDMjIuMjAwNSAtMTAuODI0MyAyMC43Mzk0IC0xMSAxOC41MzM3IC0xMVYyM0MxOC42MzA3IDIzIDE4LjY4NTUgMjMuMDAxOCAxOC43MDE5IDIzLjAwMjRDMTguNzE3NCAyMy4wMDMgMTguNzAwNSAyMy4wMDI2IDE4LjY1NSAyMi45OTkxQzE4LjYzMjggMjIuOTk3MyAxOC42MDYzIDIyLjk5NTEgMTguNTc2MSAyMi45OTIxQzE4LjU0NTcgMjIuOTg5MSAxOC41MTUzIDIyLjk4NTkgMTguNDg1OSAyMi45ODI1QzE4LjQ1NjUgMjIuOTc5MSAxOC40MzM2IDIyLjk3NjIgMTguNDIxNiAyMi45NzQ3QzE4LjQxNDEgMjIuOTczNyAxOC40MTEzIDIyLjk3MzMgMTguNDU0IDIyLjk3OTFMMjMuMDMyIC0xMC43MTEzWk0zMS41NTQxIDIwLjkyOTJDMjkuNzc2MiAyMy4xNTI4IDI3LjM5NjUgMjQuOTUwMiAyNC42MDU0IDI2LjAyNzNDMjIuMTYyOSAyNi45Njk5IDIwLjA4MzUgMjcuMDk4IDE4Ljk2MjEgMjcuMDk4Vi02LjkwMTk2QzE1LjUyOTYgLTYuOTAxOTYgOS40NTUxNiAtNS44NzY5IDQuOTk4NjEgLTAuMzAyOTk3TDMxLjU1NDEgMjAuOTI5MlpNMzUuMDc4NCAxMS4yNDYyQzM1LjA3ODQgMTEuODc3OSAzNS4wMzE4IDEzLjA5MzggMzQuNjYxMSAxNC42MjYxQzM0LjI5MjEgMTYuMTUxNyAzMy40NjkgMTguNTM0MiAzMS41NTQxIDIwLjkyOTJMNC45OTg2NCAtMC4zMDMwMjZDMS4yMDEgNC40NDY3MyAxLjA3ODQzIDkuNTg5NDIgMS4wNzg0MyAxMS4yNDYySDM1LjA3ODRaTTM1LjA3ODQgMTEuOTYwOFYxMS4yNDYySDEuMDc4NDNWMTEuOTYwOEgzNS4wNzg0Wk0tMy4wMTk2MSAxMC45MTkxVjExLjk2MDhIMzAuOTgwNFYxMC45MTkxSC0zLjAxOTYxWk0yLjkzNDAxIC00LjU2NjQ3Qy0yLjAyNjE5IDAuNTkzMDMyIC0zLjAxOTYxIDYuODE2MDkgLTMuMDE5NjEgMTAuOTE5MUgzMC45ODA0QzMwLjk4MDQgMTEuODI2NiAzMC43NjUgMTUuNTQzIDI3LjQ0NDQgMTguOTk3MUwyLjkzNDAxIC00LjU2NjQ3Wk0zMi4wOTggMTMuMDc4NFYxMC45MTkxSC0xLjkwMTk2VjEzLjA3ODRIMzIuMDk4Wk0xMi4xMTc2IDMwLjA3ODRIMTUuMDk4Vi0zLjkyMTU3SDEyLjExNzZWMzAuMDc4NFpNMTUuMDk4IC0yLjA1ODgySDEyLjExNzZWMzEuOTQxMkgxNS4wOThWLTIuMDU4ODJaTTMyLjA5OCAyMy44ODI0VjE0Ljk0MTJILTEuOTAxOTZWMjMuODgyNEgzMi4wOThaTS0wLjAzOTIxNTEgMTQuOTQxMlYyMy44ODI0SDMzLjk2MDhWMTQuOTQxMkgtMC4wMzkyMTUxWk0xOS43NDI2IC0yLjA1ODgySDE2Ljk2MDhWMzEuOTQxMkgxOS43NDI2Vi0yLjA1ODgyWk0xNi45NjA4IDMwLjA3ODRIMjAuMDA4NVYtMy45MjE1N0gxNi45NjA4VjMwLjA3ODRaTS0wLjAzOTIxNTEgMTEuMjQ2MlYxMy4wNzg0SDMzLjk2MDhWMTEuMjQ2MkgtMC4wMzkyMTUxWk0yMy41MjYxIC0xMC42NDQyTDIzLjAzMDcgLTEwLjcxMTVMMTguNDU1MyAyMi45NzkyTDE4Ljk1MDcgMjMuMDQ2NUwyMy41MjYxIC0xMC42NDQyWk0zOC4yMzg0IDEwLjA5OFY2LjIwMTE1SDQuMjM4MzlWMTAuMDk4SDM4LjIzODRaTTE4Ljk2MjEgMjcuMDk4SDIxLjIzODRWLTYuOTAxOTZIMTguOTYyMVYyNy4wOThaTTIxLjI5NyAtNS4wMzkyMkgxOC4wNzg0VjI4Ljk2MDhIMjEuMjk3Vi01LjAzOTIyWk0zNy41NDE0IDE4LjQ2MTJMMzguMTI2NCAxNC4zNjMyTDQuNDY3NjEgOS41NTgzOUwzLjg4MjYyIDEzLjY1NjRMMzcuNTQxNCAxOC40NjEyWk0xOC4wNzg0IDMzLjA1ODhIMjAuNzEyVi0wLjk0MTE3NkgxOC4wNzg0VjMzLjA1ODhaTTM1LjA3ODQgMjVWMTYuMDU4OEgxLjA3ODQzVjI1SDM1LjA3ODRaTTEzLjk4MDQgNDJIMTguMDc4NFY4SDEzLjk4MDRWNDJaTS0zLjAxOTYxIDE2LjA1ODhWMjVIMzAuOTgwNFYxNi4wNTg4SC0zLjAxOTYxWk0xMSAzMy4wNTg4SDEzLjk4MDRWLTAuOTQxMTc2SDExVjMzLjA1ODhaTS02IDExLjk2MDhWMTYuMDU4OEgyOFYxMS45NjA4SC02Wk0xMy45ODA0IC01LjAzOTIySDExVjI4Ljk2MDhIMTMuOTgwNFYtNS4wMzkyMloiCiAgICAgICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiBtYXNrPSJ1cmwoI3BhdGgtMS1pbnNpZGUtMV8xOTcxXzk3MjgpIiAvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+              class="lazy-image lazy-loaded"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0iI2ZmZmZmZiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGlkPSJJY29uIj4KICAgICAgICA8ZyBpZD0iVmVjdG9yIChTdHJva2UpIj4KICAgICAgICAgICAgPG1hc2sgaWQ9InBhdGgtMS1pbnNpZGUtMV8xOTcxXzk3MjgiIGZpbGw9IiNmZmZmZmYiPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgICAgICAgICAgZD0iTTE1Ljk5NDkgNy45ODk5QzE1LjQ0NyA4LjU1OTc2IDE1LjA5OCA5LjQ4NjYyIDE1LjA5OCAxMC45MTkxVjEzLjA3ODRIMTIuMTE3NlYxNC45NDEySDE1LjA5OFYyMy44ODI0SDE2Ljk2MDhWMTQuOTQxMkgxOS43NDI2TDIwLjAwODUgMTMuMDc4NEgxNi45NjA4VjExLjI0NjJDMTYuOTYwOCAxMC42Mzc3IDE3LjA1NTEgMTAuMDUwOCAxNy40MDM0IDkuNjE1MTRDMTcuNzc1OCA5LjE0OTM5IDE4LjMzMjcgOC45ODAzOSAxOC45NjIxIDguOTgwMzlIMjAuMTIwN1Y3LjE4NTA0QzE5Ljc2OTEgNy4xNTA2NiAxOS4yNTg2IDcuMTE3NjUgMTguNTMzNyA3LjExNzY1QzE3LjM2ODUgNy4xMTc2NSAxNi41MzkgNy40MjM5NyAxNS45OTQ5IDcuOTg5OVpNMTUuMTg5MiA3LjIxNTMyQzE2LjAxMjcgNi4zNTg2NyAxNy4xODA1IDYgMTguNTMzNyA2QzE5Ljc1NzggNiAyMC40MjA5IDYuMDkwMSAyMC43NDMgNi4xMzM4N0wyMS4yMzg0IDYuMjAxMTVWMTAuMDk4SDE4Ljk2MjFDMTguNTIyMyAxMC4wOTggMTguMzU3OSAxMC4yMTExIDE4LjI3NjQgMTAuMzEzMUMxOC4xNzA3IDEwLjQ0NTIgMTguMDc4NCAxMC43MTE4IDE4LjA3ODQgMTEuMjQ2MlYxMS45NjA4SDIxLjI5N0wyMC43MTIgMTYuMDU4OEgxOC4wNzg0VjI1SDEzLjk4MDRWMTYuMDU4OEgxMVYxMS45NjA4SDEzLjk4MDRWMTAuOTE5MUMxMy45ODA0IDkuMzIxMzQgMTQuMzY5NCA4LjA2ODA0IDE1LjE4OTIgNy4yMTUzMloiIC8+CiAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgICAgICBkPSJNMTUuOTk0OSA3Ljk4OTlDMTUuNDQ3IDguNTU5NzYgMTUuMDk4IDkuNDg2NjIgMTUuMDk4IDEwLjkxOTFWMTMuMDc4NEgxMi4xMTc2VjE0Ljk0MTJIMTUuMDk4VjIzLjg4MjRIMTYuOTYwOFYxNC45NDEySDE5Ljc0MjZMMjAuMDA4NSAxMy4wNzg0SDE2Ljk2MDhWMTEuMjQ2MkMxNi45NjA4IDEwLjYzNzcgMTcuMDU1MSAxMC4wNTA4IDE3LjQwMzQgOS42MTUxNEMxNy43NzU4IDkuMTQ5MzkgMTguMzMyNyA4Ljk4MDM5IDE4Ljk2MjEgOC45ODAzOUgyMC4xMjA3VjcuMTg1MDRDMTkuNzY5MSA3LjE1MDY2IDE5LjI1ODYgNy4xMTc2NSAxOC41MzM3IDcuMTE3NjVDMTcuMzY4NSA3LjExNzY1IDE2LjUzOSA3LjQyMzk3IDE1Ljk5NDkgNy45ODk5Wk0xNS4xODkyIDcuMjE1MzJDMTYuMDEyNyA2LjM1ODY3IDE3LjE4MDUgNiAxOC41MzM3IDZDMTkuNzU3OCA2IDIwLjQyMDkgNi4wOTAxIDIwLjc0MyA2LjEzMzg3TDIxLjIzODQgNi4yMDExNVYxMC4wOThIMTguOTYyMUMxOC41MjIzIDEwLjA5OCAxOC4zNTc5IDEwLjIxMTEgMTguMjc2NCAxMC4zMTMxQzE4LjE3MDcgMTAuNDQ1MiAxOC4wNzg0IDEwLjcxMTggMTguMDc4NCAxMS4yNDYyVjExLjk2MDhIMjEuMjk3TDIwLjcxMiAxNi4wNTg4SDE4LjA3ODRWMjVIMTMuOTgwNFYxNi4wNTg4SDExVjExLjk2MDhIMTMuOTgwNFYxMC45MTkxQzEzLjk4MDQgOS4zMjEzNCAxNC4zNjk0IDguMDY4MDQgMTUuMTg5MiA3LjIxNTMyWiIKICAgICAgICAgICAgICAgIGZpbGw9IiNFQ0UyQzgiIC8+CiAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICBkPSJNMTUuOTk0OSA3Ljk4OTlMMy43Mzk3MSAtMy43OTE4OUwzLjczOTcxIC0zLjc5MTg5TDE1Ljk5NDkgNy45ODk5Wk0xNS4wOTggMTMuMDc4NFYzMC4wNzg0SDMyLjA5OFYxMy4wNzg0SDE1LjA5OFpNMTIuMTE3NiAxMy4wNzg0Vi0zLjkyMTU3SC00Ljg4MjM1VjEzLjA3ODRIMTIuMTE3NlpNMTIuMTE3NiAxNC45NDEySC00Ljg4MjM1VjMxLjk0MTJIMTIuMTE3NlYxNC45NDEyWk0xNS4wOTggMTQuOTQxMkgzMi4wOThWLTIuMDU4ODJIMTUuMDk4VjE0Ljk0MTJaTTE1LjA5OCAyMy44ODI0SC0xLjkwMTk2VjQwLjg4MjRIMTUuMDk4VjIzLjg4MjRaTTE2Ljk2MDggMjMuODgyNFY0MC44ODI0SDMzLjk2MDhWMjMuODgyNEgxNi45NjA4Wk0xNi45NjA4IDE0Ljk0MTJWLTIuMDU4ODJILTAuMDM5MjE1MVYxNC45NDEySDE2Ljk2MDhaTTE5Ljc0MjYgMTQuOTQxMlYzMS45NDEySDM0LjQ4ODJMMzYuNTcyIDE3LjM0MzZMMTkuNzQyNiAxNC45NDEyWk0yMC4wMDg1IDEzLjA3ODRMMzYuODM3OSAxNS40ODA4TDM5LjYwNzYgLTMuOTIxNTdIMjAuMDA4NVYxMy4wNzg0Wk0xNi45NjA4IDEzLjA3ODRILTAuMDM5MjE1MVYzMC4wNzg0SDE2Ljk2MDhWMTMuMDc4NFpNMTcuNDAzNCA5LjYxNTE0TDQuMTI1NyAtMS4wMDA5N0w0LjEyNTcgLTEuMDAwOTZMMTcuNDAzNCA5LjYxNTE0Wk0yMC4xMjA3IDguOTgwMzlWMjUuOTgwNEgzNy4xMjA3VjguOTgwMzlIMjAuMTIwN1pNMjAuMTIwNyA3LjE4NTA0SDM3LjEyMDdWLTguMjMzNzNMMjEuNzc1MiAtOS43MzQyNkwyMC4xMjA3IDcuMTg1MDRaTTE1LjE4OTIgNy4yMTUzMkwyNy40NDQ0IDE4Ljk5NzFIMjcuNDQ0NEwxNS4xODkyIDcuMjE1MzJaTTIwLjc0MyA2LjEzMzg3TDE4LjQ1NCAyMi45NzkxTDE4LjQ1NTMgMjIuOTc5MkwyMC43NDMgNi4xMzM4N1pNMjEuMjM4NCA2LjIwMTE1SDM4LjIzODRWLTguNjQ2MjNMMjMuNTI2MSAtMTAuNjQ0MkwyMS4yMzg0IDYuMjAxMTVaTTIxLjIzODQgMTAuMDk4VjI3LjA5OEgzOC4yMzg0VjEwLjA5OEgyMS4yMzg0Wk0xOC4yNzY0IDEwLjMxMzFMMzEuNTU0MSAyMC45MjkyTDMxLjU1NDEgMjAuOTI5MkwxOC4yNzY0IDEwLjMxMzFaTTE4LjA3ODQgMTEuOTYwOEgxLjA3ODQzVjI4Ljk2MDhIMTguMDc4NFYxMS45NjA4Wk0yMS4yOTcgMTEuOTYwOEwzOC4xMjY0IDE0LjM2MzJMNDAuODk2MSAtNS4wMzkyMkwyMS4yOTcgLTUuMDM5MjJWMTEuOTYwOFpNMjAuNzEyIDE2LjA1ODhWMzMuMDU4OEgzNS40NTc2TDM3LjU0MTQgMTguNDYxMkwyMC43MTIgMTYuMDU4OFpNMTguMDc4NCAxNi4wNTg4Vi0wLjk0MTE3NkgxLjA3ODQzVjE2LjA1ODhIMTguMDc4NFpNMTguMDc4NCAyNVY0MkgzNS4wNzg0VjI1SDE4LjA3ODRaTTEzLjk4MDQgMjVILTMuMDE5NjFWNDJIMTMuOTgwNFYyNVpNMTMuOTgwNCAxNi4wNTg4SDMwLjk4MDRWLTAuOTQxMTc2SDEzLjk4MDRWMTYuMDU4OFpNMTEgMTYuMDU4OEgtNlYzMy4wNTg4SDExVjE2LjA1ODhaTTExIDExLjk2MDhWLTUuMDM5MjJILTZWMTEuOTYwOEgxMVpNMTMuOTgwNCAxMS45NjA4VjI4Ljk2MDhIMzAuOTgwNFYxMS45NjA4SDEzLjk4MDRaTTMyLjA5OCAxMC45MTkxQzMyLjA5OCAxMi4wMTE2IDMxLjgzMyAxNi4wNDQ4IDI4LjI1MDEgMTkuNzcxN0wzLjczOTcxIC0zLjc5MTg5Qy0wLjkzODk1NiAxLjA3NDc3IC0xLjkwMTk2IDYuOTYxNiAtMS45MDE5NiAxMC45MTkxSDMyLjA5OFpNMjkuMTE3NiAxNC45NDEyVjEzLjA3ODRILTQuODgyMzVWMTQuOTQxMkgyOS4xMTc2Wk0xNi45NjA4IDYuODgyMzVIMTUuMDk4VjQwLjg4MjRIMTYuOTYwOFY2Ljg4MjM1Wk0zLjE3OTA5IDEwLjY3NkwyLjkxMzE4IDEyLjUzODhMMzYuNTcyIDE3LjM0MzZMMzYuODM3OSAxNS40ODA4TDMuMTc5MDkgMTAuNjc2Wk00LjEyNTcgLTEuMDAwOTZDMC4wODczNDEzIDQuMDQ5ODggLTAuMDM5MjE1MSA5LjUwOTg5IC0wLjAzOTIxNTEgMTEuMjQ2MkgzMy45NjA4QzMzLjk2MDggMTEuNzM3NCAzMy45MzIgMTIuODg4IDMzLjU3NDEgMTQuMzY2MUMzMy4yMDE0IDE1LjkwNTggMzIuNDAzIDE4LjA3NzcgMzAuNjgxMiAyMC4yMzEyTDQuMTI1NyAtMS4wMDA5NlpNMTguOTYyMSAtOC4wMTk2MUMxNS40OTM2IC04LjAxOTYxIDguOTQwNzggLTcuMDIzMjYgNC4xMjU3IC0xLjAwMDk3TDMwLjY4MTIgMjAuMjMxMkMyNi42MTA5IDI1LjMyMjEgMjEuMTcxOSAyNS45ODA0IDE4Ljk2MjEgMjUuOTgwNFYtOC4wMTk2MVpNMjAuMTIwNyAtOC4wMTk2MUgxOC45NjIxVjI1Ljk4MDRIMjAuMTIwN1YtOC4wMTk2MVpNMy4xMjA3NCA3LjE4NTA0VjguOTgwMzlIMzcuMTIwN1Y3LjE4NTA0SDMuMTIwNzRaTTE4LjUzMzcgMjQuMTE3NkMxOC42MzczIDI0LjExNzYgMTguNjc0OSAyNC4xMiAxOC42NTQzIDI0LjExOUMxOC42NDQzIDI0LjExODUgMTguNjIyMSAyNC4xMTczIDE4LjU4ODYgMjQuMTE0OUMxOC41NTQ4IDI0LjExMjQgMTguNTEzNyAyNC4xMDkgMTguNDY2MyAyNC4xMDQ0TDIxLjc3NTIgLTkuNzM0MjZDMjAuODUzNSAtOS44MjQzOSAxOS43OTA0IC05Ljg4MjM1IDE4LjUzMzcgLTkuODgyMzVWMjQuMTE3NlpNMjguMjUwMSAxOS43NzE3QzI0LjU1MDggMjMuNjE5NiAyMC4yNDM4IDI0LjExNzYgMTguNTMzNyAyNC4xMTc2Vi05Ljg4MjM1QzE0LjQ5MzIgLTkuODgyMzUgOC41MjcxIC04Ljc3MTYzIDMuNzM5NzEgLTMuNzkxODlMMjguMjUwMSAxOS43NzE3Wk0xOC41MzM3IC0xMUMxNC4zMzI0IC0xMSA4LjAxNDY0IC05Ljg1MTI0IDIuOTM0MDEgLTQuNTY2NDdMMjcuNDQ0NCAxOC45OTcxQzI0LjAxMDggMjIuNTY4NiAyMC4wMjg1IDIzIDE4LjUzMzcgMjNWLTExWk0yMy4wMzIgLTEwLjcxMTNDMjIuMjAwNSAtMTAuODI0MyAyMC43Mzk0IC0xMSAxOC41MzM3IC0xMVYyM0MxOC42MzA3IDIzIDE4LjY4NTUgMjMuMDAxOCAxOC43MDE5IDIzLjAwMjRDMTguNzE3NCAyMy4wMDMgMTguNzAwNSAyMy4wMDI2IDE4LjY1NSAyMi45OTkxQzE4LjYzMjggMjIuOTk3MyAxOC42MDYzIDIyLjk5NTEgMTguNTc2MSAyMi45OTIxQzE4LjU0NTcgMjIuOTg5MSAxOC41MTUzIDIyLjk4NTkgMTguNDg1OSAyMi45ODI1QzE4LjQ1NjUgMjIuOTc5MSAxOC40MzM2IDIyLjk3NjIgMTguNDIxNiAyMi45NzQ3QzE4LjQxNDEgMjIuOTczNyAxOC40MTEzIDIyLjk3MzMgMTguNDU0IDIyLjk3OTFMMjMuMDMyIC0xMC43MTEzWk0zMS41NTQxIDIwLjkyOTJDMjkuNzc2MiAyMy4xNTI4IDI3LjM5NjUgMjQuOTUwMiAyNC42MDU0IDI2LjAyNzNDMjIuMTYyOSAyNi45Njk5IDIwLjA4MzUgMjcuMDk4IDE4Ljk2MjEgMjcuMDk4Vi02LjkwMTk2QzE1LjUyOTYgLTYuOTAxOTYgOS40NTUxNiAtNS44NzY5IDQuOTk4NjEgLTAuMzAyOTk3TDMxLjU1NDEgMjAuOTI5MlpNMzUuMDc4NCAxMS4yNDYyQzM1LjA3ODQgMTEuODc3OSAzNS4wMzE4IDEzLjA5MzggMzQuNjYxMSAxNC42MjYxQzM0LjI5MjEgMTYuMTUxNyAzMy40NjkgMTguNTM0MiAzMS41NTQxIDIwLjkyOTJMNC45OTg2NCAtMC4zMDMwMjZDMS4yMDEgNC40NDY3MyAxLjA3ODQzIDkuNTg5NDIgMS4wNzg0MyAxMS4yNDYySDM1LjA3ODRaTTM1LjA3ODQgMTEuOTYwOFYxMS4yNDYySDEuMDc4NDNWMTEuOTYwOEgzNS4wNzg0Wk0tMy4wMTk2MSAxMC45MTkxVjExLjk2MDhIMzAuOTgwNFYxMC45MTkxSC0zLjAxOTYxWk0yLjkzNDAxIC00LjU2NjQ3Qy0yLjAyNjE5IDAuNTkzMDMyIC0zLjAxOTYxIDYuODE2MDkgLTMuMDE5NjEgMTAuOTE5MUgzMC45ODA0QzMwLjk4MDQgMTEuODI2NiAzMC43NjUgMTUuNTQzIDI3LjQ0NDQgMTguOTk3MUwyLjkzNDAxIC00LjU2NjQ3Wk0zMi4wOTggMTMuMDc4NFYxMC45MTkxSC0xLjkwMTk2VjEzLjA3ODRIMzIuMDk4Wk0xMi4xMTc2IDMwLjA3ODRIMTUuMDk4Vi0zLjkyMTU3SDEyLjExNzZWMzAuMDc4NFpNMTUuMDk4IC0yLjA1ODgySDEyLjExNzZWMzEuOTQxMkgxNS4wOThWLTIuMDU4ODJaTTMyLjA5OCAyMy44ODI0VjE0Ljk0MTJILTEuOTAxOTZWMjMuODgyNEgzMi4wOThaTS0wLjAzOTIxNTEgMTQuOTQxMlYyMy44ODI0SDMzLjk2MDhWMTQuOTQxMkgtMC4wMzkyMTUxWk0xOS43NDI2IC0yLjA1ODgySDE2Ljk2MDhWMzEuOTQxMkgxOS43NDI2Vi0yLjA1ODgyWk0xNi45NjA4IDMwLjA3ODRIMjAuMDA4NVYtMy45MjE1N0gxNi45NjA4VjMwLjA3ODRaTS0wLjAzOTIxNTEgMTEuMjQ2MlYxMy4wNzg0SDMzLjk2MDhWMTEuMjQ2MkgtMC4wMzkyMTUxWk0yMy41MjYxIC0xMC42NDQyTDIzLjAzMDcgLTEwLjcxMTVMMTguNDU1MyAyMi45NzkyTDE4Ljk1MDcgMjMuMDQ2NUwyMy41MjYxIC0xMC42NDQyWk0zOC4yMzg0IDEwLjA5OFY2LjIwMTE1SDQuMjM4MzlWMTAuMDk4SDM4LjIzODRaTTE4Ljk2MjEgMjcuMDk4SDIxLjIzODRWLTYuOTAxOTZIMTguOTYyMVYyNy4wOThaTTIxLjI5NyAtNS4wMzkyMkgxOC4wNzg0VjI4Ljk2MDhIMjEuMjk3Vi01LjAzOTIyWk0zNy41NDE0IDE4LjQ2MTJMMzguMTI2NCAxNC4zNjMyTDQuNDY3NjEgOS41NTgzOUwzLjg4MjYyIDEzLjY1NjRMMzcuNTQxNCAxOC40NjEyWk0xOC4wNzg0IDMzLjA1ODhIMjAuNzEyVi0wLjk0MTE3NkgxOC4wNzg0VjMzLjA1ODhaTTM1LjA3ODQgMjVWMTYuMDU4OEgxLjA3ODQzVjI1SDM1LjA3ODRaTTEzLjk4MDQgNDJIMTguMDc4NFY4SDEzLjk4MDRWNDJaTS0zLjAxOTYxIDE2LjA1ODhWMjVIMzAuOTgwNFYxNi4wNTg4SC0zLjAxOTYxWk0xMSAzMy4wNTg4SDEzLjk4MDRWLTAuOTQxMTc2SDExVjMzLjA1ODhaTS02IDExLjk2MDhWMTYuMDU4OEgyOFYxMS45NjA4SC02Wk0xMy45ODA0IC01LjAzOTIySDExVjI4Ljk2MDhIMTMuOTgwNFYtNS4wMzkyMloiCiAgICAgICAgICAgICAgICBmaWxsPSIjRUNFMkM4IiBtYXNrPSJ1cmwoI3BhdGgtMS1pbnNpZGUtMV8xOTcxXzk3MjgpIiAvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" />
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="frame">
+        <div class="frame-2">
+          <div class="text-wrapper-2">TOPICS</div>
+          <div class="frame-3">
+            <div class="frame-4">
+              <a title="Politics" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-3">Politics</div>
+                </div>
+              </a>
+              <a title="Economy" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-3">Economy</div>
+                </div>
+              </a>
+              <a title="World" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-3">World</div>
+                </div>
+              </a>
+              <a title="Security" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-3">Security</div>
+                </div>
+              </a>
+            </div>
+            <div class="frame-4">
+              <a title="Law" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-4">Law</div>
+                </div>
+              </a>
+              <a title="Science" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-4">Science</div>
+                </div>
+              </a>
+              <a title="Society" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-4">Society</div>
+                </div>
+              </a>
+              <a title="Culture" target="_self" href="news-details.html">
+                <div>
+                  <div class="text-wrapper-4">Culture</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-2">VOICES</div>
+          <div class="frame-4">
+            <a target="_self" href="news-details.html">
+              <div class="text-wrapper-3">Opinion</div>
+            </a>
+            <a target="_self" href="news-details.html">
+              <div class="text-wrapper-4">Editor's Pick</div>
+            </a>
+            <a target="_self" href="news-details.html">
+              <div class="text-wrapper-4">Analysis</div>
+            </a>
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-2">NAVIGATE</div>
+          <div class="frame-4">
+            <div class="text-wrapper-3">
+              <a title="About us" target="_self" href="news-details.html">About Us</a>
+            </div>
+            <div class="text-wrapper-4">
+              <a title="Support us" target="_self" href="news-details.html">Support Us</a>
+            </div>
+            <div class="text-wrapper-4">
+              <a title="Contact us" target="_self" href="news-details.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="frame-6">
+        <div class="text-wrapper-3">
+          <a target="_self" href="terms.html">Terms &amp; Conditions</a>
+        </div>
+        <div class="text-wrapper-3">
+          <a target="_self" href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div class="text-wrapper-3">
+          <a target="_self" href="refund-policy.html">Refund Policy</a>
+        </div>
+        <div class="text-wrapper-3">
+          <a href="news-details.html"
+            target="_blank">Newsletter</a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <p class="text-wrapper-6">
+        ©2026 All rights reserved.
+      </p>
+    </div>
+    </footer>
+</body>
+
+</html>
